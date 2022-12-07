@@ -14,7 +14,7 @@ else :
 
 #2 Check if a number is odd or even
 number1 = int(input("Enter number1 : "))
-if number % 2 == 0 :
+if number1 % 2 == 0 :
     print("It is an even number")
 
 else :
@@ -42,8 +42,8 @@ if number2 > 1 :
             print(number2, "is prime number")
 
 #5 Write a Python Program to Print all Prime Numbers in an Interval of 1-10000?
-lower = int(input("Enter lower value"))
-upper = int(input("Enter the upper value"))
+lower = int(input("Enter lower value "))
+upper = int(input("Enter the upper value "))
 for number in range(lower, upper +1) :
     if number>1 :
         for i in range(2,number):
